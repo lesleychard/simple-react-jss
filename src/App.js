@@ -1,8 +1,9 @@
 import React from 'react';
+import Button from './components';
 
 const App = () => (
     <div>
-        Hello world.
+        <Button>Hello world.</Button>
     </div>
 );
 
