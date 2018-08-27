@@ -5,6 +5,10 @@ module.exports = {
     extends: [
         'airbnb',
     ],
+    plugins: [
+        'babel',
+    ],
+    parser: 'babel-eslint',
     rules: {
         indent: [
             'error',
@@ -13,6 +17,7 @@ module.exports = {
         ],
         'object-curly-newline': 'off',
         'object-curly-spacing': 'off',
+        'react/forbid-prop-types': 'off',
         'react/jsx-indent': [
             'error',
             4,
