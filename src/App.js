@@ -3,7 +3,12 @@ import Button from './components';
 
 const App = () => (
     <div>
-        <Button>Hello world.</Button>
+        <Button size={25}>
+            Primary Button
+        </Button>
+        <Button color="secondary">
+            Secondary Button
+        </Button>
     </div>
 );
 
